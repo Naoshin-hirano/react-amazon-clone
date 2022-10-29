@@ -1,6 +1,6 @@
 import { ReactLocation, Route } from "@tanstack/react-location";
 import { history } from "./history";
-import { sampleRoute } from "route/sampleRoute";
+import { authRoute } from "route/authRoute";
 import React from "react";
 import { TopPage } from "ui/page/top";
 
@@ -15,7 +15,7 @@ const indexRoute: Route[] = [
     },
 ];
 
-export const routes: Route[] = [sampleRoute].reduce(
+export const routes: Route[] = [authRoute].reduce(
     (prevRoute, currRoute) => prevRoute.concat(currRoute),
     indexRoute
 );
