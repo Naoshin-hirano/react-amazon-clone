@@ -1,5 +1,5 @@
 import React from "react";
-import { Checkout } from "ui/component/organism/checkout/checkout";
+import { Checkout } from "ui/component/organism/checkout";
 
 export const Template: React.FC<any> = (props) => {
     return (

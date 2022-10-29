@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../../design/component/atoms/checkout/checkout.css";
+import "../../../../design/component/atoms/checkout/index.css";
 import { Subtotal } from "./subtotal";
 import { CheckoutProduct } from "./checkout-product";
 
