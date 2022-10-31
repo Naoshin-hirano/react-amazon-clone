@@ -1,7 +1,7 @@
 import React from "react";
 import "../../../../design/component/atoms/checkout/index.css";
 import { Subtotal } from "./subtotal";
-import { CheckoutProduct } from "./checkout-product";
+import { CheckoutProduct } from "../common/checkout-product";
 
 export const Checkout: React.FC<any> = (props) => {
     const { basket } = props;
