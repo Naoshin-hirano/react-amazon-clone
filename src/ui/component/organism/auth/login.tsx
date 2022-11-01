@@ -1,6 +1,6 @@
 import React from "react";
 import "../../../../design/component/atoms/auth/Login.css";
-import { Link, MemoryRouter } from "react-router-dom";
+import { Link } from "@tanstack/react-location";
 
 export const Login: React.FC<any> = (props) => {
     const { firstTitle } = props;
@@ -8,16 +8,13 @@ export const Login: React.FC<any> = (props) => {
 
     return (
         <div className="login">
-            <MemoryRouter>
-                <Link to="/">
-                    <img
-                        alt="Amazon_logo"
-                        className="login__logo"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
-                    />
-                </Link>
-            </MemoryRouter>
-
+            <Link to="/">
+                <img
+                    alt="Amazon_logo"
+                    className="login__logo"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
+                />
+            </Link>
             <div className="login__container">
                 <h1>Sign In</h1>
                 <form>
