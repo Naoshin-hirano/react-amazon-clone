@@ -5,6 +5,7 @@ import React from "react";
 import { TopPage } from "ui/page/top";
 import { checkoutRoute } from "./checkout";
 import { ordersRoute } from "./orders";
+import { paymentRoute } from "./payment";
 
 const indexRoute: Route[] = [
     {
@@ -17,9 +18,11 @@ const indexRoute: Route[] = [
     },
 ];
 
-export const routes: Route[] = [authRoute, checkoutRoute, ordersRoute].reduce(
-    (prevRoute, currRoute) => prevRoute.concat(currRoute),
-    indexRoute
-);
+export const routes: Route[] = [
+    authRoute,
+    checkoutRoute,
+    ordersRoute,
+    paymentRoute,
+].reduce((prevRoute, currRoute) => prevRoute.concat(currRoute), indexRoute);
 
 export const location = new ReactLocation({ history: history });
