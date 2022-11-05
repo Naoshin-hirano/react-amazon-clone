@@ -16,25 +16,27 @@ export const Login: React.FC<any> = (props) => {
                 />
             </Link>
             <div className="login__container">
-                <h1>Sign In</h1>
+                <h1>ログイン</h1>
                 <form>
-                    <h5>Email</h5>
+                    <h5>メール</h5>
                     <input type="text" />
 
-                    <h5>Password</h5>
+                    <h5>パスワード</h5>
                     <input type="password" />
 
-                    <button className="login_signInButton">Sign In</button>
+                    <button className="login_signInButton">ログイン</button>
                 </form>
 
                 <p>
-                    By signing in you agree to Amazon FAKE CLONE's Conditions of
-                    Use & Sale. Please see our Privacy Notice, or Cookies Notice
-                    and our Interest-Based Ads Notice.
+                    サインインすることにより、Amazon FAKE CLONE
+                    の条件に同意したことになります
+                    使用と販売。当社のプライバシーに関する通知または Cookie
+                    に関する通知をご覧ください。 およびインタレスト
+                    ベース広告の通知。
                 </p>
 
                 <button className="login__registerButton">
-                    Create your Amazon Account
+                    Amazon Accountを作成する
                 </button>
             </div>
         </div>

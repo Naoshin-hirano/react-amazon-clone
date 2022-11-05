@@ -54,7 +54,7 @@ export const Payment: React.FC<any> = (props) => {
 
                 <div className="payment__section">
                     <div className="payment__title">
-                        <h3>Payment Method</h3>
+                        <h3>支払い方法</h3>
                     </div>
                     <div className="payment__details">
                         <form onSubmit={handleSubmit}>
@@ -63,7 +63,7 @@ export const Payment: React.FC<any> = (props) => {
                             <div className="payment__priceContainer">
                                 <CurrencyFormat
                                     renderText={(value) => (
-                                        <h3>Order Total: {value}</h3>
+                                        <h3>合計: {value}</h3>
                                     )}
                                     decimalScale={2}
                                     value="77,555"
@@ -73,7 +73,7 @@ export const Payment: React.FC<any> = (props) => {
                                 />
                                 {/* 処理中または処理完了時は非活性 */}
                                 <button>
-                                    <span>Buy Now</span>
+                                    <span>購入する</span>
                                 </button>
                             </div>
 

@@ -52,7 +52,7 @@ const basket: Basket = [
         title: "登山グッズ一式",
         image:
             "https://www.anoyama.com/wp-content/uploads/2019/05/0_equipment-860x550.jpg",
-        price: "23,400",
+        price: "2,340",
         rating: 4,
     },
     {
@@ -60,7 +60,7 @@ const basket: Basket = [
         title: "キャンプグッズ一式",
         image:
             "https://images.camphack.jp/wp-content/uploads/2022/02/image19.jpeg",
-        price: "53,400",
+        price: "5,300",
         rating: 5,
     },
     {

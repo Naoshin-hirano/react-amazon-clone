@@ -17,8 +17,8 @@ export const Checkout: React.FC<any> = (props) => {
                 />
 
                 <div>
-                    <h3>Hello xxx@yyy.com</h3>
-                    <h2 className="checkout__title">Your shopping basket</h2>
+                    <h3>平野直弥さん</h3>
+                    <h2 className="checkout__title">カート内の商品</h2>
 
                     {basket.map((item: any, key: any) => (
                         <CheckoutProduct

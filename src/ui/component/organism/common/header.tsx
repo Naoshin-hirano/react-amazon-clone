@@ -24,22 +24,24 @@ export const Header = () => {
                 <Link to="/login">
                     <div className="header__option">
                         <span className="header__optionLineOne">
-                            Hello xxxx@yyyy.com
+                            平野直弥さん
                         </span>
-                        <span className="header__optionLineTwo">Sign In</span>
+                        <span className="header__optionLineTwo">ログイン</span>
                     </div>
                 </Link>
 
                 <Link to="/orders">
                     <div className="header__option">
-                        <span className="header__optionLineOne">Returns</span>
-                        <span className="header__optionLineTwo">& Orders</span>
+                        <span className="header__optionLineOne">
+                            返品もこちら
+                        </span>
+                        <span className="header__optionLineTwo">注文履歴</span>
                     </div>
                 </Link>
 
                 <div className="header__option">
-                    <span className="header__optionLineOne">Your</span>
-                    <span className="header__optionLineTwo">Prime</span>
+                    <span className="header__optionLineOne">あなたの</span>
+                    <span className="header__optionLineTwo">アカウント</span>
                 </div>
 
                 <Link to="/checkout">

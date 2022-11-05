@@ -21,7 +21,7 @@ export const Product: React.FC<any> = ({ id, title, image, price, rating }) => {
             <div className="product__info">
                 <p>{title}</p>
                 <p className="product__price">
-                    <small>$</small>
+                    <small>¥</small>
                     <strong>{price}</strong>
                 </p>
                 <div className="product__rating">
@@ -36,7 +36,7 @@ export const Product: React.FC<any> = ({ id, title, image, price, rating }) => {
 
             <img src={image} alt="The Lean Startup book cover" />
 
-            <button>Add to Basket</button>
+            <button>カートへ</button>
         </div>
     );
 };

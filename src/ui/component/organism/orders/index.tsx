@@ -6,7 +6,7 @@ export const Orders: React.FC<any> = (props) => {
     const { orders } = props;
     return (
         <div className="orders">
-            <h1> Your Orders</h1>
+            <h1> 注文内容</h1>
             <div className="orders__order">
                 {orders?.map((order: any, key: any) => (
                     <Order order={order} key={key} />

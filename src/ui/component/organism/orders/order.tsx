@@ -8,12 +8,10 @@ export const Order = (props: any) => {
     const { order } = props;
     return (
         <div className="order">
-            <h2>Order</h2>
-            <p>
-                {moment.unix(order.data.created).format("MMMM Do YYYY, h:mma")}
-            </p>
+            <h2>注文</h2>
+            <p>{moment.unix(order.data.created).format("YYYY-MM-DD")}</p>
             <p className="order__id">
-                <small>Order ID: {order.id}</small>
+                <small>注文ID: {order.id}</small>
             </p>
             {order.data.basket?.map((item: any, key: any) => (
                 <CheckoutProduct
@@ -29,13 +27,13 @@ export const Order = (props: any) => {
 
             <CurrencyFormat
                 renderText={(value) => (
-                    <h3 className="order__total">Order Total:{value}</h3>
+                    <h3 className="order__total">合計:{value}</h3>
                 )}
                 decimalScale={2}
                 value={order.data.amount / 100}
                 displayType={"text"}
                 thousandSeparator={true}
-                prefix={"$"}
+                prefix={"¥"}
             />
         </div>
     );

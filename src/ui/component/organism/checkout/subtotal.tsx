@@ -9,11 +9,12 @@ export const Subtotal: React.FC<any> = ({ basket }) => {
                 renderText={(value) => (
                     <>
                         <p>
-                            Subtotal ({basket?.length} items):{" "}
+                            小計 ({basket?.length} 個の商品):
                             <strong>{value}</strong>
                         </p>
                         <small className="subtotal__gift">
-                            <input type="checkbox" /> This order contains a gift
+                            <input type="checkbox" />
+                            ギフトに設定（贈り主の氏名を表示）
                         </small>
                     </>
                 )}
@@ -21,10 +22,10 @@ export const Subtotal: React.FC<any> = ({ basket }) => {
                 value="76,000"
                 displayType={"text"}
                 thousandSeparator={true}
-                prefix={"$"}
+                prefix={"¥"}
             />
             {/* 支払い画面へ遷移 */}
-            <button>Proceed to Checkout</button>
+            <button>レジに進む</button>
         </div>
     );
 };
