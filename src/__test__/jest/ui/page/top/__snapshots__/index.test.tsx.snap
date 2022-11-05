@@ -7,6 +7,7 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
       class="header"
     >
       <a
+        class="active"
         href="/"
       >
         <img
@@ -140,11 +141,11 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
               </div>
             </div>
             <div
-              class="Carousel-buttonWrapper-5  Carousel-next-11"
+              class="Carousel-buttonWrapper-6   Carousel-next-12"
             >
               <button
                 aria-label="Next"
-                class="MuiButtonBase-root MuiIconButton-root Carousel-button-7 Carousel-buttonHidden-10  Carousel-next-11"
+                class="MuiButtonBase-root MuiIconButton-root Carousel-button-11 Carousel-buttonHidden-10  "
                 tabindex="0"
                 type="button"
               >
@@ -168,11 +169,11 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
               </button>
             </div>
             <div
-              class="Carousel-buttonWrapper-5  Carousel-prev-12"
+              class="Carousel-buttonWrapper-6   Carousel-prev-13"
             >
               <button
                 aria-label="Previous"
-                class="MuiButtonBase-root MuiIconButton-root Carousel-button-7 Carousel-buttonHidden-10   Carousel-prev-12"
+                class="MuiButtonBase-root MuiIconButton-root Carousel-button-11 Carousel-buttonHidden-10  "
                 tabindex="0"
                 type="button"
               >

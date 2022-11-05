@@ -7,6 +7,7 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
       class="header"
     >
       <a
+        class="active"
         href="/"
       >
         <img

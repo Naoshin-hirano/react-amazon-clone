@@ -1,12 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Checkout Checkout画面 snapshot確認: Checkout 1`] = `
+exports[`CheckoutPage Checkout画面 snapshot確認: CheckoutPage 1`] = `
 <DocumentFragment>
   <div>
     <div
       class="header"
     >
       <a
+        class="active"
         href="/"
       >
         <img

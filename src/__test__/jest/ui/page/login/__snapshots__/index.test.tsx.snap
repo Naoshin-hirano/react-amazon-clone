@@ -7,6 +7,7 @@ exports[`LoginPage Login画面 snapshot確認: LoginPage 1`] = `
       class="login"
     >
       <a
+        class="active"
         href="/"
       >
         <img

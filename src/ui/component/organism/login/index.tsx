@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../../design/component/atoms/auth/Login.css";
+import "../../../../design/component/atoms/auth/login.css";
 import { Link } from "@tanstack/react-location";
 
 export const Login: React.FC<any> = (props) => {

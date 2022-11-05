@@ -2,19 +2,19 @@ import { render } from "@testing-library/react";
 import React from "react";
 import { Router } from "@tanstack/react-location";
 import { location, routes } from "../../../../../route";
-import { TopPage } from "ui/page/top";
+import { PaymentPage } from "ui/page/payment";
 
-describe("TopPage", () => {
+describe("PaymentPage", () => {
     beforeEach(() => {
         jest.clearAllMocks();
     });
 
-    it("TopPage画面 snapshot確認", async () => {
+    it("PaymentPage画面 snapshot確認", async () => {
         const { asFragment } = render(
             <Router routes={routes} location={location}>
-                <TopPage />
+                <PaymentPage />
             </Router>
         );
-        expect(asFragment()).toMatchSnapshot("TopPage");
+        expect(asFragment()).toMatchSnapshot("PaymentPage");
     });
 });
