@@ -2,14 +2,15 @@ import React from "react";
 import "../../../../design/component/atoms/checkout/subtotal.css";
 import CurrencyFormat from "react-currency-format";
 
-export const Subtotal: React.FC<any> = ({ basket }) => {
+export const Subtotal = ({ busketInfo }: any) => {
     return (
         <div className="subtotal">
             <CurrencyFormat
                 renderText={(value) => (
                     <>
                         <p>
-                            小計 ({basket?.length} 個の商品):
+                            小計 ({busketInfo.productInCart?.length - 1}{" "}
+                            個の商品):
                             <strong>{value}</strong>
                         </p>
                         <small className="subtotal__gift">
@@ -19,7 +20,7 @@ export const Subtotal: React.FC<any> = ({ basket }) => {
                     </>
                 )}
                 decimalScale={2}
-                value="76,000"
+                value={busketInfo.currentTotalAmount}
                 displayType={"text"}
                 thousandSeparator={true}
                 prefix={"¥"}

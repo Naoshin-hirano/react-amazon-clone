@@ -1,25 +1,19 @@
 import React from "react";
 import "../../../../design/component/atoms/top/product.css";
 
-export const Product: React.FC<any> = ({ id, title, image, price, rating }) => {
-    // const addToBasket = () => {
-    //     //dispatch item to the data layer
-    //     dispatch({
-    //         type: "ADD_TO_BASKET",
-    //         item: {
-    //             id,
-    //             title,
-    //             image,
-    //             price,
-    //             rating,
-    //         },
-    //     });
-    // };
-    console.log("id", id);
+export const Product: React.FC<any> = ({
+    id,
+    title,
+    price,
+    rating,
+    image,
+    addToBasket,
+}: any) => {
     return (
         <div className="product">
             <div className="product__info">
                 <p>{title}</p>
+                <p>{id}</p>
                 <p className="product__price">
                     <small>¥</small>
                     <strong>{price}</strong>
@@ -36,7 +30,19 @@ export const Product: React.FC<any> = ({ id, title, image, price, rating }) => {
 
             <img src={image} alt="The Lean Startup book cover" />
 
-            <button>カートへ</button>
+            <button
+                onClick={() =>
+                    addToBasket({
+                        id,
+                        title,
+                        image,
+                        price,
+                        rating,
+                    })
+                }
+            >
+                カートへ
+            </button>
         </div>
     );
 };

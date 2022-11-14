@@ -46,12 +46,12 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
             <span
               class="header__optionLineOne"
             >
-              Hello xxxx@yyyy.com
+              平野直弥さん
             </span>
             <span
               class="header__optionLineTwo"
             >
-              Sign In
+              ログイン
             </span>
           </div>
         </a>
@@ -64,12 +64,12 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
             <span
               class="header__optionLineOne"
             >
-              Returns
+              返品もこちら
             </span>
             <span
               class="header__optionLineTwo"
             >
-              & Orders
+              注文履歴
             </span>
           </div>
         </a>
@@ -79,12 +79,12 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
           <span
             class="header__optionLineOne"
           >
-            Your
+            あなたの
           </span>
           <span
             class="header__optionLineTwo"
           >
-            Prime
+            アカウント
           </span>
         </div>
         <a
@@ -213,14 +213,17 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
                 <p>
                   The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback
                 </p>
+                <p>
+                  12321341
+                </p>
                 <p
                   class="product__price"
                 >
                   <small>
-                    $
+                    ¥
                   </small>
                   <strong>
-                    11.96
+                    1196
                   </strong>
                 </p>
                 <div
@@ -251,7 +254,7 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
                 src="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
               />
               <button>
-                Add to Basket
+                カートへ
               </button>
             </div>
             <div
@@ -263,11 +266,14 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
                 <p>
                   Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl
                 </p>
+                <p>
+                  49538094
+                </p>
                 <p
                   class="product__price"
                 >
                   <small>
-                    $
+                    ¥
                   </small>
                   <strong>
                     239
@@ -298,7 +304,7 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
                 src="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
               />
               <button>
-                Add to Basket
+                カートへ
               </button>
             </div>
           </div>
@@ -314,14 +320,17 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
                 <p>
                   Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor
                 </p>
+                <p>
+                  4903850
+                </p>
                 <p
                   class="product__price"
                 >
                   <small>
-                    $
+                    ¥
                   </small>
                   <strong>
-                    199.99
+                    199
                   </strong>
                 </p>
                 <div
@@ -346,7 +355,7 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
                 src="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
               />
               <button>
-                Add to Basket
+                カートへ
               </button>
             </div>
             <div
@@ -358,14 +367,17 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
                 <p>
                   Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric
                 </p>
+                <p>
+                  23445930
+                </p>
                 <p
                   class="product__price"
                 >
                   <small>
-                    $
+                    ¥
                   </small>
                   <strong>
-                    98.99
+                    98
                   </strong>
                 </p>
                 <div
@@ -396,7 +408,7 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
                 src="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
               />
               <button>
-                Add to Basket
+                カートへ
               </button>
             </div>
             <div
@@ -408,14 +420,17 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
                 <p>
                   New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)
                 </p>
+                <p>
+                  3254354345
+                </p>
                 <p
                   class="product__price"
                 >
                   <small>
-                    $
+                    ¥
                   </small>
                   <strong>
-                    598.99
+                    598
                   </strong>
                 </p>
                 <div
@@ -443,7 +458,7 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
                 src="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
               />
               <button>
-                Add to Basket
+                カートへ
               </button>
             </div>
           </div>
@@ -459,14 +474,17 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
                 <p>
                   Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440
                 </p>
+                <p>
+                  90829332
+                </p>
                 <p
                   class="product__price"
                 >
                   <small>
-                    $
+                    ¥
                   </small>
                   <strong>
-                    1094.98
+                    1094
                   </strong>
                 </p>
                 <div
@@ -494,7 +512,7 @@ exports[`TopPage TopPage画面 snapshot確認: TopPage 1`] = `
                 src="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
               />
               <button>
-                Add to Basket
+                カートへ
               </button>
             </div>
           </div>

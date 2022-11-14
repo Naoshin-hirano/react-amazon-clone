@@ -46,12 +46,12 @@ exports[`CheckoutPage Checkout画面 snapshot確認: CheckoutPage 1`] = `
             <span
               class="header__optionLineOne"
             >
-              Hello xxxx@yyyy.com
+              平野直弥さん
             </span>
             <span
               class="header__optionLineTwo"
             >
-              Sign In
+              ログイン
             </span>
           </div>
         </a>
@@ -64,12 +64,12 @@ exports[`CheckoutPage Checkout画面 snapshot確認: CheckoutPage 1`] = `
             <span
               class="header__optionLineOne"
             >
-              Returns
+              返品もこちら
             </span>
             <span
               class="header__optionLineTwo"
             >
-              & Orders
+              注文履歴
             </span>
           </div>
         </a>
@@ -79,12 +79,12 @@ exports[`CheckoutPage Checkout画面 snapshot確認: CheckoutPage 1`] = `
           <span
             class="header__optionLineOne"
           >
-            Your
+            あなたの
           </span>
           <span
             class="header__optionLineTwo"
           >
-            Prime
+            アカウント
           </span>
         </div>
         <a
@@ -125,154 +125,14 @@ exports[`CheckoutPage Checkout画面 snapshot確認: CheckoutPage 1`] = `
         />
         <div>
           <h3>
-            Hello xxx@yyy.com
+            平野直弥さん
           </h3>
           <h2
             class="checkout__title"
           >
-            Your shopping basket
+            カート内の商品
           </h2>
-          <div
-            class="checkoutProduct"
-          >
-            <img
-              alt="checkoutProductImg"
-              class="checkoutProduct__image"
-              src="https://www.anoyama.com/wp-content/uploads/2019/05/0_equipment-860x550.jpg"
-            />
-            <div
-              class="checkoutProduct__info"
-            >
-              <p
-                class="checkoutProduct__title"
-              >
-                登山グッズ一式
-              </p>
-              <p
-                class="checkoutProduct__price"
-              >
-                <small>
-                  $
-                </small>
-                <strong>
-                  23,400
-                </strong>
-              </p>
-              <div
-                class="checkoutProduct__rating"
-              >
-                <p>
-                  🌟
-                </p>
-                <p>
-                  🌟
-                </p>
-                <p>
-                  🌟
-                </p>
-                <p>
-                  🌟
-                </p>
-              </div>
-              <button>
-                Remove from Basket
-              </button>
-            </div>
-          </div>
-          <div
-            class="checkoutProduct"
-          >
-            <img
-              alt="checkoutProductImg"
-              class="checkoutProduct__image"
-              src="https://images.camphack.jp/wp-content/uploads/2022/02/image19.jpeg"
-            />
-            <div
-              class="checkoutProduct__info"
-            >
-              <p
-                class="checkoutProduct__title"
-              >
-                キャンプグッズ一式
-              </p>
-              <p
-                class="checkoutProduct__price"
-              >
-                <small>
-                  $
-                </small>
-                <strong>
-                  53,400
-                </strong>
-              </p>
-              <div
-                class="checkoutProduct__rating"
-              >
-                <p>
-                  🌟
-                </p>
-                <p>
-                  🌟
-                </p>
-                <p>
-                  🌟
-                </p>
-                <p>
-                  🌟
-                </p>
-                <p>
-                  🌟
-                </p>
-              </div>
-              <button>
-                Remove from Basket
-              </button>
-            </div>
-          </div>
-          <div
-            class="checkoutProduct"
-          >
-            <img
-              alt="checkoutProductImg"
-              class="checkoutProduct__image"
-              src="https://m.media-amazon.com/images/I/616AAPLKJTL._AC_UY500_.jpg"
-            />
-            <div
-              class="checkoutProduct__info"
-            >
-              <p
-                class="checkoutProduct__title"
-              >
-                登山シューズ
-              </p>
-              <p
-                class="checkoutProduct__price"
-              >
-                <small>
-                  $
-                </small>
-                <strong>
-                  16,400
-                </strong>
-              </p>
-              <div
-                class="checkoutProduct__rating"
-              >
-                <p>
-                  🌟
-                </p>
-                <p>
-                  🌟
-                </p>
-                <p>
-                  🌟
-                </p>
-              </div>
-              <button>
-                Remove from Basket
-              </button>
-            </div>
-          </div>
+          商品が存在しません
         </div>
       </div>
       <div
@@ -282,10 +142,8 @@ exports[`CheckoutPage Checkout画面 snapshot確認: CheckoutPage 1`] = `
           class="subtotal"
         >
           <p>
-            Subtotal ( items): 
-            <strong>
-              $76,000
-            </strong>
+            小計 (NaN 個の商品):
+            <strong />
           </p>
           <small
             class="subtotal__gift"
@@ -293,10 +151,10 @@ exports[`CheckoutPage Checkout画面 snapshot確認: CheckoutPage 1`] = `
             <input
               type="checkbox"
             />
-             This order contains a gift
+            ギフトに設定（贈り主の氏名を表示）
           </small>
           <button>
-            Proceed to Checkout
+            レジに進む
           </button>
         </div>
       </div>
