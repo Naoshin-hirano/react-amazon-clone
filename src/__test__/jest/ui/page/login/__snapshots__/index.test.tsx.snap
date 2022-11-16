@@ -20,17 +20,17 @@ exports[`LoginPage Login画面 snapshot確認: LoginPage 1`] = `
         class="login__container"
       >
         <h1>
-          Sign In
+          ログイン
         </h1>
         <form>
           <h5>
-            Email
+            メール
           </h5>
           <input
             type="text"
           />
           <h5>
-            Password
+            パスワード
           </h5>
           <input
             type="password"
@@ -38,16 +38,16 @@ exports[`LoginPage Login画面 snapshot確認: LoginPage 1`] = `
           <button
             class="login_signInButton"
           >
-            Sign In
+            ログイン
           </button>
         </form>
         <p>
-          By signing in you agree to Amazon FAKE CLONE's Conditions of Use & Sale. Please see our Privacy Notice, or Cookies Notice and our Interest-Based Ads Notice.
+          サインインすることにより、Amazon FAKE CLONE の条件に同意したことになります 使用と販売。当社のプライバシーに関する通知または Cookie に関する通知をご覧ください。 およびインタレスト ベース広告の通知。
         </p>
         <button
           class="login__registerButton"
         >
-          Create your Amazon Account
+          Amazon Accountを作成する
         </button>
       </div>
     </div>

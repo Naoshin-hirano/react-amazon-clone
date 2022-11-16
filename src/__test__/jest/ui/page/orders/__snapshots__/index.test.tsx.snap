@@ -46,12 +46,12 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
             <span
               class="header__optionLineOne"
             >
-              Hello xxxx@yyyy.com
+              平野直弥さん
             </span>
             <span
               class="header__optionLineTwo"
             >
-              Sign In
+              ログイン
             </span>
           </div>
         </a>
@@ -64,12 +64,12 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
             <span
               class="header__optionLineOne"
             >
-              Returns
+              返品もこちら
             </span>
             <span
               class="header__optionLineTwo"
             >
-              & Orders
+              注文履歴
             </span>
           </div>
         </a>
@@ -79,12 +79,12 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
           <span
             class="header__optionLineOne"
           >
-            Your
+            あなたの
           </span>
           <span
             class="header__optionLineTwo"
           >
-            Prime
+            アカウント
           </span>
         </div>
         <a
@@ -116,7 +116,7 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
       class="orders"
     >
       <h1>
-         Your Orders
+         注文内容
       </h1>
       <div
         class="orders__order"
@@ -125,16 +125,16 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
           class="order"
         >
           <h2>
-            Order
+            注文
           </h2>
           <p>
-            October 21st 2022, 10:46pm
+            2022-10-21
           </p>
           <p
             class="order__id"
           >
             <small>
-              Order ID: kgkaeethavafaffa
+              注文ID: kgkaeethavafaffa
             </small>
           </p>
           <div
@@ -157,7 +157,7 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
                 class="checkoutProduct__price"
               >
                 <small>
-                  $
+                  ¥
                 </small>
                 <strong>
                   23,400
@@ -201,7 +201,7 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
                 class="checkoutProduct__price"
               >
                 <small>
-                  $
+                  ¥
                 </small>
                 <strong>
                   53,400
@@ -248,7 +248,7 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
                 class="checkoutProduct__price"
               >
                 <small>
-                  $
+                  ¥
                 </small>
                 <strong>
                   16,400
@@ -272,23 +272,23 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
           <h3
             class="order__total"
           >
-            Order Total:$666
+            合計:¥666
           </h3>
         </div>
         <div
           class="order"
         >
           <h2>
-            Order
+            注文
           </h2>
           <p>
-            October 17th 2022, 3:46pm
+            2022-10-17
           </p>
           <p
             class="order__id"
           >
             <small>
-              Order ID: yyyhaearearegfaeare
+              注文ID: yyyhaearearegfaeare
             </small>
           </p>
           <div
@@ -311,7 +311,7 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
                 class="checkoutProduct__price"
               >
                 <small>
-                  $
+                  ¥
                 </small>
                 <strong>
                   23,400
@@ -355,7 +355,7 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
                 class="checkoutProduct__price"
               >
                 <small>
-                  $
+                  ¥
                 </small>
                 <strong>
                   53,400
@@ -402,7 +402,7 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
                 class="checkoutProduct__price"
               >
                 <small>
-                  $
+                  ¥
                 </small>
                 <strong>
                   16,400
@@ -426,23 +426,23 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
           <h3
             class="order__total"
           >
-            Order Total:$246
+            合計:¥246
           </h3>
         </div>
         <div
           class="order"
         >
           <h2>
-            Order
+            注文
           </h2>
           <p>
-            October 19th 2022, 5:00pm
+            2022-10-19
           </p>
           <p
             class="order__id"
           >
             <small>
-              Order ID: waeimganreirangaef
+              注文ID: waeimganreirangaef
             </small>
           </p>
           <div
@@ -465,7 +465,7 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
                 class="checkoutProduct__price"
               >
                 <small>
-                  $
+                  ¥
                 </small>
                 <strong>
                   23,400
@@ -509,7 +509,7 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
                 class="checkoutProduct__price"
               >
                 <small>
-                  $
+                  ¥
                 </small>
                 <strong>
                   53,400
@@ -556,7 +556,7 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
                 class="checkoutProduct__price"
               >
                 <small>
-                  $
+                  ¥
                 </small>
                 <strong>
                   16,400
@@ -580,7 +580,7 @@ exports[`OrdersPage TopPage画面 snapshot確認: OrdersPage 1`] = `
           <h3
             class="order__total"
           >
-            Order Total:$578
+            合計:¥578
           </h3>
         </div>
       </div>

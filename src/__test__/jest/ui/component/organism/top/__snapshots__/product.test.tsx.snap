@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Unit Test Topコンポーネント snapshotテスト: Product 1`] = `
+<DocumentFragment>
+  <div
+    class="product"
+  >
+    <div
+      class="product__info"
+    >
+      <p>
+        The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback
+      </p>
+      <p>
+        12321341
+      </p>
+      <p
+        class="product__price"
+      >
+        <small>
+          ¥
+        </small>
+        <strong>
+          1196
+        </strong>
+      </p>
+      <div
+        class="product__rating"
+      >
+        <p>
+          🌟
+        </p>
+        <p>
+          🌟
+        </p>
+        <p>
+          🌟
+        </p>
+        <p>
+          🌟
+        </p>
+        <p>
+          🌟
+        </p>
+      </div>
+    </div>
+    <div
+      class="product__rating"
+    />
+    <img
+      alt="The Lean Startup book cover"
+      src="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+    />
+    <button>
+      カートへ
+    </button>
+  </div>
+</DocumentFragment>
+`;
